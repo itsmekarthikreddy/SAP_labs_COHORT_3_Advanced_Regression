@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """
-run_house_model.py
-
 Reproducible script to preprocess data, run Ridge and Lasso with cross-validation,
 compare models, list important predictors, evaluate doubling alpha effect,
 and retrain Lasso excluding top-5 features. Outputs results to console and files.
-
-This script is designed for the upgrad-ML2 workspace where `train.csv` is present.
+This script is designed for the workspace where `train.csv` is present.
 """
 import json
 import os
